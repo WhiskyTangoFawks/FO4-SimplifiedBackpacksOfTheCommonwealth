@@ -1,0 +1,53 @@
+{
+  "FormKey": "12FB95:GreaseRatGarbs.esp",
+  "EditorID": "TNGR_BackPack_Tinkerer",
+  "PreviewTransform": "186DDF:Fallout4.esm",
+  "Name": {
+    "TargetLanguage": "English",
+    "Value": "Back Pack Tinkerer"
+  },
+  "WorldModel": {
+    "Male": {
+      "Model": {
+        "File": "Tinuvia\\GreaseRatGarbs\\GO_BPTinkerer.NIF",
+        "Data": "0x0400000000000000000000000000000000000000"
+      }
+    }
+  },
+  "BipedBodyTemplate": {
+    "FirstPersonFlags": [
+      "Unnamed54"
+    ]
+  },
+  "Race": "013746:Fallout4.esm",
+  "Keywords": [
+    "07820B:Fallout4.esm"
+  ],
+  "Description": {
+    "TargetLanguage": "English",
+    "Value": ""
+  },
+  "Armatures": [
+    {
+      "AddonIndex": 0,
+      "ArmorAddon": "12FB94:GreaseRatGarbs.esp"
+    }
+  ],
+  "Value": 20,
+  "Weight": 2.0,
+  "ArmorRating": 2,
+  "Unused": "0x000000",
+  "AttachParentSlots": [
+    "007C26:Backpacks of the Commonwealth.esp"
+  ],
+  "ObjectTemplates": [
+    {
+      "Includes": [
+        {
+          "Mod": "000002:SBOTC - GreaseratBackpacks.esp",
+          "DontUseAll": true
+        }
+      ]
+    }
+  ]
+}

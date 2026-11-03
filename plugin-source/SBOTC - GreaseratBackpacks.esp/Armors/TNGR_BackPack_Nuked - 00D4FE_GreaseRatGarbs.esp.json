@@ -1,0 +1,57 @@
+{
+  "FormKey": "00D4FE:GreaseRatGarbs.esp",
+  "EditorID": "TNGR_BackPack_Nuked",
+  "ObjectBounds": {
+    "First": "-9, -21, -3",
+    "Second": "12, 8, 12"
+  },
+  "PreviewTransform": "186DDF:Fallout4.esm",
+  "Name": {
+    "TargetLanguage": "English",
+    "Value": "Back Pack Nuked"
+  },
+  "WorldModel": {
+    "Male": {
+      "Model": {
+        "File": "Tinuvia\\GreaseRatGarbs\\GO_BPNuked.nif",
+        "Data": "0x0400000000000000000000000000000000000000"
+      }
+    }
+  },
+  "BipedBodyTemplate": {
+    "FirstPersonFlags": [
+      "Unnamed54"
+    ]
+  },
+  "Race": "013746:Fallout4.esm",
+  "Keywords": [
+    "07820B:Fallout4.esm"
+  ],
+  "Description": {
+    "TargetLanguage": "English",
+    "Value": ""
+  },
+  "Armatures": [
+    {
+      "AddonIndex": 0,
+      "ArmorAddon": "00D4FD:GreaseRatGarbs.esp"
+    }
+  ],
+  "Value": 20,
+  "Weight": 2.0,
+  "ArmorRating": 2,
+  "Unused": "0x000000",
+  "AttachParentSlots": [
+    "007C26:Backpacks of the Commonwealth.esp"
+  ],
+  "ObjectTemplates": [
+    {
+      "Includes": [
+        {
+          "Mod": "000001:SBOTC - GreaseratBackpacks.esp",
+          "DontUseAll": true
+        }
+      ]
+    }
+  ]
+}
