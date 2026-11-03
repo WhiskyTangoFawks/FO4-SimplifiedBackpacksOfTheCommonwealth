@@ -14,6 +14,7 @@
     "TargetLanguage": "English",
     "Value": "Increases the wearer's overall carry capacity by +75."
   },
+  "AttachPoint": "007C26:Backpacks of the Commonwealth.esp",
   "TargetOmodKeywords": [
     "002E95:Backpacks of the Commonwealth.esp"
   ],
