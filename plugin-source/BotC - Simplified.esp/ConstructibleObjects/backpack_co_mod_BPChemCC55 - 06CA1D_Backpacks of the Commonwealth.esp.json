@@ -1,0 +1,20 @@
+{
+  "FormKey": "06CA1D:Backpacks of the Commonwealth.esp",
+  "EditorID": "backpack_co_mod_BPChemCC55",
+  "Components": [
+    {
+      "Component": "01FAA5:Fallout4.esm",
+      "Count": 1
+    }
+  ],
+  "Description": {
+    "TargetLanguage": "English",
+    "Value": ""
+  },
+  "CreatedObject": "06CA20:Backpacks of the Commonwealth.esp",
+  "CreatedObjectCounts": [
+    {
+      "Count": 1
+    }
+  ]
+}

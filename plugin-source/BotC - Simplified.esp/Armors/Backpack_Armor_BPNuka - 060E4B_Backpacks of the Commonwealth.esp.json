@@ -1,0 +1,108 @@
+{
+  "FormKey": "060E4B:Backpacks of the Commonwealth.esp",
+  "EditorID": "Backpack_Armor_BPNuka",
+  "ObjectBounds": {
+    "First": "-11, -11, -3",
+    "Second": "11, 19, 14"
+  },
+  "PreviewTransform": "01F9C8:Backpacks of the Commonwealth.esp",
+  "Name": {
+    "TargetLanguage": "English",
+    "Value": "Limited Edition Nuka-Pack!"
+  },
+  "WorldModel": {
+    "Male": {
+      "Model": {
+        "File": "Clothes\\Backpacks\\NukaBrain\\NukaBrainGO.nif",
+        "Data": "0x0400000000000000000000000000000000000000"
+      }
+    }
+  },
+  "BipedBodyTemplate": {
+    "FirstPersonFlags": [
+      "Unnamed54"
+    ]
+  },
+  "Race": "013746:Fallout4.esm",
+  "Keywords": [
+    "07820B:Fallout4.esm",
+    "012C77:Backpacks of the Commonwealth.esp"
+  ],
+  "Description": {
+    "TargetLanguage": "English",
+    "Value": ""
+  },
+  "InstanceNaming": "184BC1:Fallout4.esm",
+  "Armatures": [
+    {
+      "AddonIndex": 1,
+      "ArmorAddon": "060E4C:Backpacks of the Commonwealth.esp"
+    },
+    {
+      "AddonIndex": 2,
+      "ArmorAddon": "01F9C5:Backpacks of the Commonwealth.esp"
+    },
+    {
+      "AddonIndex": 3,
+      "ArmorAddon": "0282BA:Backpacks of the Commonwealth.esp"
+    },
+    {
+      "AddonIndex": 4,
+      "ArmorAddon": "0282C0:Backpacks of the Commonwealth.esp"
+    },
+    {
+      "AddonIndex": 5,
+      "ArmorAddon": "0282CC:Backpacks of the Commonwealth.esp"
+    },
+    {
+      "AddonIndex": 6,
+      "ArmorAddon": "02C723:Backpacks of the Commonwealth.esp"
+    },
+    {
+      "AddonIndex": 7,
+      "ArmorAddon": "030B80:Backpacks of the Commonwealth.esp"
+    },
+    {
+      "AddonIndex": 8,
+      "ArmorAddon": "081FCF:Backpacks of the Commonwealth.esp"
+    },
+    {
+      "AddonIndex": 9,
+      "ArmorAddon": "081FD4:Backpacks of the Commonwealth.esp"
+    },
+    {
+      "AddonIndex": 10,
+      "ArmorAddon": "08ECE6:Backpacks of the Commonwealth.esp"
+    },
+    {
+      "AddonIndex": 11,
+      "ArmorAddon": "09758E:Backpacks of the Commonwealth.esp"
+    },
+    {
+      "AddonIndex": 12,
+      "ArmorAddon": "0A42A5:Backpacks of the Commonwealth.esp"
+    }
+  ],
+  "Value": 96,
+  "Weight": 6.0,
+  "Unused": "0x000000",
+  "AttachParentSlots": [
+    "007C26:Backpacks of the Commonwealth.esp"
+  ],
+  "ObjectTemplates": [
+    {
+      "IsEditorOnly": true,
+      "Name": {
+        "TargetLanguage": "English",
+        "Value": "CC/DR (Legendary Desc)"
+      },
+      "Default": true,
+      "Includes": [
+        {
+          "Mod": "012C76:Backpacks of the Commonwealth.esp",
+          "DontUseAll": true
+        }
+      ]
+    }
+  ]
+}

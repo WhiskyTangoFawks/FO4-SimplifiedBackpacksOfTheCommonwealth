@@ -1,0 +1,62 @@
+{
+  "FormKey": "002E76:Backpacks of the Commonwealth.esp",
+  "EditorID": "Backpack_Armor_BPLeatherShoulderBag",
+  "ObjectBounds": {
+    "First": "-37, -34, -47",
+    "Second": "-23, 96, 18"
+  },
+  "PreviewTransform": "00461D:Backpacks of the Commonwealth.esp",
+  "Name": {
+    "TargetLanguage": "English",
+    "Value": "Leather Shoulder Bag"
+  },
+  "WorldModel": {
+    "Male": {
+      "Model": {
+        "File": "Clothes\\Backpacks\\LeatherShoulderBag\\LeatherShoulderBagGO.nif",
+        "Data": "0x0400000000000000000000000000000000000000"
+      }
+    }
+  },
+  "BipedBodyTemplate": {
+    "FirstPersonFlags": [
+      "Unnamed54"
+    ]
+  },
+  "Race": "013746:Fallout4.esm",
+  "Keywords": [
+    "07820B:Fallout4.esm",
+    "002E7E:Backpacks of the Commonwealth.esp"
+  ],
+  "Description": {
+    "TargetLanguage": "English",
+    "Value": ""
+  },
+  "Armatures": [
+    {
+      "AddonIndex": 0,
+      "ArmorAddon": "002E75:Backpacks of the Commonwealth.esp"
+    }
+  ],
+  "Value": 10,
+  "Weight": 0.5,
+  "Unused": "0x000000",
+  "AttachParentSlots": [
+    "007C26:Backpacks of the Commonwealth.esp",
+    "007C44:Backpacks of the Commonwealth.esp"
+  ],
+  "ObjectTemplates": [
+    {
+      "Includes": [
+        {
+          "Mod": "002E81:Backpacks of the Commonwealth.esp",
+          "DontUseAll": true
+        },
+        {
+          "Mod": "030B8B:Backpacks of the Commonwealth.esp",
+          "DontUseAll": true
+        }
+      ]
+    }
+  ]
+}

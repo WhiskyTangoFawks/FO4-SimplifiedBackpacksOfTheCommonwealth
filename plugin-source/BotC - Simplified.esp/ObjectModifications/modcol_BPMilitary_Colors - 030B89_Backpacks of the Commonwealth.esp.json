@@ -1,0 +1,39 @@
+{
+  "MutagenObjectType": "ObjectModification",
+  "FormKey": "030B89:Backpacks of the Commonwealth.esp",
+  "MajorRecordFlagsRaw": 128,
+  "EditorID": "modcol_BPMilitary_Colors",
+  "Fallout4MajorRecordFlags": [
+    "0x80"
+  ],
+  "Description": {
+    "TargetLanguage": "English",
+    "Value": ""
+  },
+  "AttachPoint": "007C44:Backpacks of the Commonwealth.esp",
+  "Includes": [
+    {
+      "Mod": "00364F:Backpacks of the Commonwealth.esp",
+      "MinimumLevel": 1,
+      "DoNotUseAll": true
+    },
+    {
+      "Mod": "003650:Backpacks of the Commonwealth.esp",
+      "MinimumLevel": 1,
+      "DoNotUseAll": true
+    },
+    {
+      "Mod": "003652:Backpacks of the Commonwealth.esp",
+      "MinimumLevel": 1,
+      "DoNotUseAll": true
+    },
+    {
+      "Mod": "00E342:Backpacks of the Commonwealth.esp",
+      "MinimumLevel": 1,
+      "DoNotUseAll": true
+    }
+  ],
+  "MajorFlags": [
+    "0x80"
+  ]
+}

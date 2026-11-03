@@ -1,0 +1,64 @@
+{
+  "FormKey": "03E0CA:Backpacks of the Commonwealth.esp",
+  "EditorID": "Backpack_Armor_BPWastelander",
+  "ObjectBounds": {
+    "First": "-10, -26, 0",
+    "Second": "16, 8, 14"
+  },
+  "PreviewTransform": "03E0D7:Backpacks of the Commonwealth.esp",
+  "Name": {
+    "TargetLanguage": "English",
+    "Value": "Wastelander's Backpack"
+  },
+  "WorldModel": {
+    "Male": {
+      "Model": {
+        "File": "Clothes\\Backpacks\\NewPouches\\WastelanderGO.nif",
+        "Data": "0x0400000000000000000000000000000000000000"
+      }
+    }
+  },
+  "BipedBodyTemplate": {
+    "FirstPersonFlags": [
+      "Unnamed54"
+    ]
+  },
+  "Race": "013746:Fallout4.esm",
+  "Keywords": [
+    "07820B:Fallout4.esm",
+    "03E0D3:Backpacks of the Commonwealth.esp"
+  ],
+  "Description": {
+    "TargetLanguage": "English",
+    "Value": ""
+  },
+  "InstanceNaming": "184BC1:Fallout4.esm",
+  "Armatures": [
+    {
+      "AddonIndex": 1,
+      "ArmorAddon": "03E0CB:Backpacks of the Commonwealth.esp"
+    }
+  ],
+  "Value": 59,
+  "Weight": 6.0,
+  "Unused": "0x000000",
+  "AttachParentSlots": [
+    "007C26:Backpacks of the Commonwealth.esp"
+  ],
+  "ObjectTemplates": [
+    {
+      "IsEditorOnly": true,
+      "Name": {
+        "TargetLanguage": "English",
+        "Value": "CC/DR (Legendary Desc)"
+      },
+      "Default": true,
+      "Includes": [
+        {
+          "Mod": "03E0CC:Backpacks of the Commonwealth.esp",
+          "DontUseAll": true
+        }
+      ]
+    }
+  ]
+}

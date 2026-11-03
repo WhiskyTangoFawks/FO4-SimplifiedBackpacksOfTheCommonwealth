@@ -1,0 +1,81 @@
+{
+  "FormKey": "002E8B:Backpacks of the Commonwealth.esp",
+  "EditorID": "Backpack_Armor_BPTrapper",
+  "ObjectBounds": {
+    "First": "-39, -17, -12",
+    "Second": "38, 106, 24"
+  },
+  "PreviewTransform": "00461C:Backpacks of the Commonwealth.esp",
+  "Name": {
+    "TargetLanguage": "English",
+    "Value": "Trapper's Back Pouch"
+  },
+  "WorldModel": {
+    "Male": {
+      "Model": {
+        "File": "Clothes\\Backpacks\\Trapper\\TrapperBackpackGO.nif",
+        "Data": "0x0400000000000000000000000000000000000000"
+      }
+    }
+  },
+  "BipedBodyTemplate": {
+    "FirstPersonFlags": [
+      "Unnamed54"
+    ]
+  },
+  "Race": "013746:Fallout4.esm",
+  "Keywords": [
+    "07820B:Fallout4.esm",
+    "002E8D:Backpacks of the Commonwealth.esp"
+  ],
+  "Description": {
+    "TargetLanguage": "English",
+    "Value": ""
+  },
+  "InstanceNaming": "184BC1:Fallout4.esm",
+  "Armatures": [
+    {
+      "AddonIndex": 1,
+      "ArmorAddon": "002E8C:Backpacks of the Commonwealth.esp"
+    },
+    {
+      "AddonIndex": 2,
+      "ArmorAddon": "017376:Backpacks of the Commonwealth.esp"
+    }
+  ],
+  "Value": 38,
+  "Weight": 3.5,
+  "Unused": "0x000000",
+  "AttachParentSlots": [
+    "007C26:Backpacks of the Commonwealth.esp",
+    "05367F:Backpacks of the Commonwealth.esp"
+  ],
+  "ObjectTemplates": [
+    {
+      "IsEditorOnly": true,
+      "Name": {
+        "TargetLanguage": "English",
+        "Value": "CC/DR (Legendary Desc)"
+      },
+      "Default": true,
+      "Includes": [
+        {
+          "Mod": "002E8E:Backpacks of the Commonwealth.esp",
+          "DontUseAll": true
+        },
+        {
+          "Mod": "017378:Backpacks of the Commonwealth.esp",
+          "DontUseAll": true
+        }
+      ],
+      "Properties": [
+        {
+          "MutagenObjectType": "ObjectModIntProperty<Armor+Property>",
+          "Property": "AddonIndex",
+          "Value": 1,
+          "FunctionType": "Add"
+        }
+      ]
+    }
+  ]
+}

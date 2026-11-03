@@ -1,0 +1,40 @@
+{
+  "FormKey": "00653B:Backpacks of the Commonwealth.esp",
+  "EditorID": "backpack_qPerksQuestWater",
+  "Name": {
+    "TargetLanguage": "English",
+    "Value": "backpack PerksQuest"
+  },
+  "Data": {
+    "Flags": [
+      "AllowRepeatedStages",
+      "StartsEnabled",
+      "RunOnce"
+    ],
+    "Priority": 10
+  },
+  "UnusedConditions": [],
+  "Stages": [
+    {
+      "Index": 200,
+      "Unknown": 116,
+      "LogEntries": [
+        {
+          "Flags": [],
+          "Note": "Water"
+        }
+      ]
+    },
+    {
+      "Index": 210,
+      "Unknown": 116,
+      "LogEntries": [
+        {
+          "Flags": [],
+          "Note": "Water Repeat"
+        }
+      ]
+    }
+  ],
+  "Aliases": []
+}

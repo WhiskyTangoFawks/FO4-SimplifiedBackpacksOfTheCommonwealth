@@ -1,0 +1,52 @@
+{
+  "MutagenObjectType": "ArmorModification",
+  "FormKey": "00EAEC:Backpacks of the Commonwealth.esp",
+  "MajorRecordFlagsRaw": 16,
+  "EditorID": "backpack_mod_BPStealthCC55",
+  "Fallout4MajorRecordFlags": [
+    "0x10"
+  ],
+  "Name": {
+    "TargetLanguage": "English",
+    "Value": "Electron Charged Coil"
+  },
+  "Description": {
+    "TargetLanguage": "English",
+    "Value": "Increases the wearer's overall carry capacity by +55."
+  },
+  "AttachPoint": "007C26:Backpacks of the Commonwealth.esp",
+  "TargetOmodKeywords": [
+    "00EAE9:Backpacks of the Commonwealth.esp"
+  ],
+  "LooseMod": "00EAEB:Backpacks of the Commonwealth.esp",
+  "MajorFlags": [
+    "0x10"
+  ],
+  "Properties": [
+    {
+      "MutagenObjectType": "ObjectModIntProperty<Armor+Property>",
+      "Property": "AddonIndex",
+      "Value": 1
+    },
+    {
+      "MutagenObjectType": "ObjectModFormLinkFloatProperty<Armor+Property>",
+      "Property": "ActorValues",
+      "Record": "00E33D:Backpacks of the Commonwealth.esp",
+      "FunctionType": "Add"
+    },
+    {
+      "MutagenObjectType": "ObjectModFormLinkFloatProperty<Armor+Property>",
+      "Property": "ActorValues",
+      "Record": "0002DC:Fallout4.esm",
+      "Value": 55.0,
+      "FunctionType": "Add"
+    },
+    {
+      "MutagenObjectType": "ObjectModFormLinkFloatProperty<Armor+Property>",
+      "Property": "ActorValues",
+      "Record": "00D3FA:Backpacks of the Commonwealth.esp",
+      "Value": 55.0,
+      "FunctionType": "Add"
+    }
+  ]
+}

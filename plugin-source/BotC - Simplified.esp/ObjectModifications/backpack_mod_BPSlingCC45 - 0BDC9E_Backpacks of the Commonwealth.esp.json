@@ -1,0 +1,53 @@
+{
+  "MutagenObjectType": "ArmorModification",
+  "FormKey": "0BDC9E:Backpacks of the Commonwealth.esp",
+  "MajorRecordFlagsRaw": 16,
+  "EditorID": "backpack_mod_BPSlingCC45",
+  "Fallout4MajorRecordFlags": [
+    "0x10"
+  ],
+  "Name": {
+    "TargetLanguage": "English",
+    "Value": "Medium Pouch"
+  },
+  "Description": {
+    "TargetLanguage": "English",
+    "Value": "Increases the wearer's overall carry capacity by +45."
+  },
+  "AttachPoint": "007C26:Backpacks of the Commonwealth.esp",
+  "TargetOmodKeywords": [
+    "09B9E8:Backpacks of the Commonwealth.esp"
+  ],
+  "LooseMod": "0BDC9D:Backpacks of the Commonwealth.esp",
+  "MajorFlags": [
+    "0x10"
+  ],
+  "Properties": [
+    {
+      "MutagenObjectType": "ObjectModIntProperty<Armor+Property>",
+      "Property": "AddonIndex",
+      "FunctionType": "Add"
+    },
+    {
+      "MutagenObjectType": "ObjectModFormLinkFloatProperty<Armor+Property>",
+      "Property": "ActorValues",
+      "Record": "00E33D:Backpacks of the Commonwealth.esp",
+      "Value": 5.0,
+      "FunctionType": "Add"
+    },
+    {
+      "MutagenObjectType": "ObjectModFormLinkFloatProperty<Armor+Property>",
+      "Property": "ActorValues",
+      "Record": "0002DC:Fallout4.esm",
+      "Value": 45.0,
+      "FunctionType": "Add"
+    },
+    {
+      "MutagenObjectType": "ObjectModFormLinkFloatProperty<Armor+Property>",
+      "Property": "ActorValues",
+      "Record": "00D3FA:Backpacks of the Commonwealth.esp",
+      "Value": 45.0,
+      "FunctionType": "Add"
+    }
+  ]
+}

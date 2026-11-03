@@ -1,0 +1,68 @@
+{
+  "FormKey": "08642E:Backpacks of the Commonwealth.esp",
+  "EditorID": "Backpack_Armor_BPMutant",
+  "ObjectBounds": {
+    "First": "-13, -19, -1",
+    "Second": "14, 17, 20"
+  },
+  "PreviewTransform": "08ECE2:Backpacks of the Commonwealth.esp",
+  "Name": {
+    "TargetLanguage": "English",
+    "Value": "Super Mutant's Trunk"
+  },
+  "WorldModel": {
+    "Male": {
+      "Model": {
+        "File": "Clothes\\Backpacks\\Mutant\\BPGO.nif",
+        "Data": "0x0400000000000000000000000000000000000000"
+      }
+    }
+  },
+  "BipedBodyTemplate": {
+    "FirstPersonFlags": [
+      "Unnamed54"
+    ]
+  },
+  "Race": "013746:Fallout4.esm",
+  "Keywords": [
+    "07820B:Fallout4.esm",
+    "08642B:Backpacks of the Commonwealth.esp"
+  ],
+  "Description": {
+    "TargetLanguage": "English",
+    "Value": ""
+  },
+  "InstanceNaming": "184BC1:Fallout4.esm",
+  "Armatures": [
+    {
+      "AddonIndex": 0,
+      "ArmorAddon": "086429:Backpacks of the Commonwealth.esp"
+    },
+    {
+      "AddonIndex": 0,
+      "ArmorAddon": "08642D:Backpacks of the Commonwealth.esp"
+    }
+  ],
+  "Value": 49,
+  "Weight": 15.0,
+  "Unused": "0x000000",
+  "AttachParentSlots": [
+    "007C26:Backpacks of the Commonwealth.esp"
+  ],
+  "ObjectTemplates": [
+    {
+      "IsEditorOnly": true,
+      "Name": {
+        "TargetLanguage": "English",
+        "Value": "CC/DR (Legendary Desc)"
+      },
+      "Default": true,
+      "Includes": [
+        {
+          "Mod": "08A881:Backpacks of the Commonwealth.esp",
+          "DontUseAll": true
+        }
+      ]
+    }
+  ]
+}

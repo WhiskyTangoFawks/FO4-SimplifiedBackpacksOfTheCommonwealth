@@ -1,0 +1,52 @@
+{
+  "MutagenObjectType": "ArmorModification",
+  "FormKey": "00CC20:Backpacks of the Commonwealth.esp",
+  "MajorRecordFlagsRaw": 16,
+  "EditorID": "backpack_mod_BPScribeCC75Endurance",
+  "Fallout4MajorRecordFlags": [
+    "0x10"
+  ],
+  "Name": {
+    "TargetLanguage": "English",
+    "Value": "Front Pockets with Harness"
+  },
+  "Description": {
+    "TargetLanguage": "English",
+    "Value": "Increases the wearer's overall carry capacity by +75."
+  },
+  "TargetOmodKeywords": [
+    "002E95:Backpacks of the Commonwealth.esp"
+  ],
+  "LooseMod": "00CC1F:Backpacks of the Commonwealth.esp",
+  "MajorFlags": [
+    "0x10"
+  ],
+  "Properties": [
+    {
+      "MutagenObjectType": "ObjectModFloatProperty<Armor+Property>",
+      "Property": "Weight",
+      "Value": 1.5,
+      "FunctionType": "Add"
+    },
+    {
+      "MutagenObjectType": "ObjectModFloatProperty<Armor+Property>",
+      "Property": "Value",
+      "Value": 0.06,
+      "FunctionType": "MultAndAdd"
+    },
+    {
+      "MutagenObjectType": "ObjectModFormLinkFloatProperty<Armor+Property>",
+      "Property": "ActorValues",
+      "Record": "0002DC:Fallout4.esm",
+      "Value": 75.0,
+      "FunctionType": "Add"
+    },
+    {
+      "MutagenObjectType": "ObjectModFormLinkFloatProperty<Armor+Property>",
+      "Property": "ActorValues",
+      "Record": "00D3FA:Backpacks of the Commonwealth.esp",
+      "Value": 75.0,
+      "FunctionType": "Add"
+    }
+  ]
+}

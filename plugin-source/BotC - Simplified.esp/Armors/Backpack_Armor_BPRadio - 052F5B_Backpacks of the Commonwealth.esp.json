@@ -1,0 +1,64 @@
+{
+  "FormKey": "052F5B:Backpacks of the Commonwealth.esp",
+  "EditorID": "Backpack_Armor_BPRadio",
+  "ObjectBounds": {
+    "First": "-13, -37, 0",
+    "Second": "13, 22, 13"
+  },
+  "PreviewTransform": "00DA3C:Backpacks of the Commonwealth.esp",
+  "Name": {
+    "TargetLanguage": "English",
+    "Value": "Manpack Portable Radio Transceiver"
+  },
+  "WorldModel": {
+    "Male": {
+      "Model": {
+        "File": "Clothes\\Backpacks\\Radio\\RadioGO.nif",
+        "Data": "0x0400000000000000000000000000000000000000"
+      }
+    }
+  },
+  "BipedBodyTemplate": {
+    "FirstPersonFlags": [
+      "Unnamed54"
+    ]
+  },
+  "Race": "013746:Fallout4.esm",
+  "Keywords": [
+    "07820B:Fallout4.esm",
+    "052F5D:Backpacks of the Commonwealth.esp"
+  ],
+  "Description": {
+    "TargetLanguage": "English",
+    "Value": ""
+  },
+  "InstanceNaming": "184BC1:Fallout4.esm",
+  "Armatures": [
+    {
+      "AddonIndex": 0,
+      "ArmorAddon": "052F5A:Backpacks of the Commonwealth.esp"
+    }
+  ],
+  "Value": 53,
+  "Weight": 5.0,
+  "Unused": "0x000000",
+  "AttachParentSlots": [
+    "007C26:Backpacks of the Commonwealth.esp"
+  ],
+  "ObjectTemplates": [
+    {
+      "IsEditorOnly": true,
+      "Name": {
+        "TargetLanguage": "English",
+        "Value": "CC/DR (Legendary Desc)"
+      },
+      "Default": true,
+      "Includes": [
+        {
+          "Mod": "052F5F:Backpacks of the Commonwealth.esp",
+          "DontUseAll": true
+        }
+      ]
+    }
+  ]
+}

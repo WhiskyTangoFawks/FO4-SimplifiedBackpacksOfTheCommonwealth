@@ -1,0 +1,66 @@
+{
+  "MutagenObjectType": "ArmorModification",
+  "FormKey": "00CC4A:Backpacks of the Commonwealth.esp",
+  "MajorRecordFlagsRaw": 16,
+  "EditorID": "backpack_mod_BPTinkerCC50Box",
+  "Fallout4MajorRecordFlags": [
+    "0x10"
+  ],
+  "Name": {
+    "TargetLanguage": "English",
+    "Value": "Stash Toolbox"
+  },
+  "Description": {
+    "TargetLanguage": "English",
+    "Value": "Increases the wearer's overall carry capacity by +50."
+  },
+  "AttachPoint": "007C26:Backpacks of the Commonwealth.esp",
+  "TargetOmodKeywords": [
+    "00CC33:Backpacks of the Commonwealth.esp"
+  ],
+  "LooseMod": "00CC39:Backpacks of the Commonwealth.esp",
+  "MajorFlags": [
+    "0x10"
+  ],
+  "Properties": [
+    {
+      "MutagenObjectType": "ObjectModFloatProperty<Armor+Property>",
+      "Property": "Weight",
+      "Value": 0.5,
+      "FunctionType": "Add"
+    },
+    {
+      "MutagenObjectType": "ObjectModIntProperty<Armor+Property>",
+      "Property": "Value",
+      "Value": 25,
+      "FunctionType": "Add"
+    },
+    {
+      "MutagenObjectType": "ObjectModIntProperty<Armor+Property>",
+      "Property": "AddonIndex",
+      "Value": 2,
+      "FunctionType": "Add"
+    },
+    {
+      "MutagenObjectType": "ObjectModFormLinkFloatProperty<Armor+Property>",
+      "Property": "ActorValues",
+      "Record": "00E33D:Backpacks of the Commonwealth.esp",
+      "Value": 10.0,
+      "FunctionType": "Add"
+    },
+    {
+      "MutagenObjectType": "ObjectModFormLinkFloatProperty<Armor+Property>",
+      "Property": "ActorValues",
+      "Record": "0002DC:Fallout4.esm",
+      "Value": 50.0,
+      "FunctionType": "Add"
+    },
+    {
+      "MutagenObjectType": "ObjectModFormLinkFloatProperty<Armor+Property>",
+      "Property": "ActorValues",
+      "Record": "00D3FA:Backpacks of the Commonwealth.esp",
+      "Value": 50.0,
+      "FunctionType": "Add"
+    }
+  ]
+}

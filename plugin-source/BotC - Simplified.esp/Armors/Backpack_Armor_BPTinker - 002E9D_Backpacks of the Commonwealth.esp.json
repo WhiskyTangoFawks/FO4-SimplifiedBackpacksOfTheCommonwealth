@@ -1,0 +1,113 @@
+{
+  "FormKey": "002E9D:Backpacks of the Commonwealth.esp",
+  "EditorID": "Backpack_Armor_BPTinker",
+  "ObjectBounds": {
+    "First": "-24, -27, 0",
+    "Second": "19, 24, 20"
+  },
+  "PreviewTransform": "0051D4:Backpacks of the Commonwealth.esp",
+  "Name": {
+    "TargetLanguage": "English",
+    "Value": "Tinker's Rucksack"
+  },
+  "WorldModel": {
+    "Male": {
+      "Model": {
+        "File": "Clothes\\Backpacks\\Tinker\\9go7.nif",
+        "Data": "0x0400000000000000000000000000000000000000"
+      }
+    }
+  },
+  "BipedBodyTemplate": {
+    "FirstPersonFlags": [
+      "Unnamed54"
+    ]
+  },
+  "Race": "013746:Fallout4.esm",
+  "Keywords": [
+    "07820B:Fallout4.esm",
+    "00CC33:Backpacks of the Commonwealth.esp"
+  ],
+  "Description": {
+    "TargetLanguage": "English",
+    "Value": ""
+  },
+  "InstanceNaming": "184BC1:Fallout4.esm",
+  "Armatures": [
+    {
+      "AddonIndex": 2,
+      "ArmorAddon": "00173D:Backpacks of the Commonwealth.esp"
+    },
+    {
+      "AddonIndex": 3,
+      "ArmorAddon": "00174E:Backpacks of the Commonwealth.esp"
+    },
+    {
+      "AddonIndex": 4,
+      "ArmorAddon": "00173E:Backpacks of the Commonwealth.esp"
+    },
+    {
+      "AddonIndex": 5,
+      "ArmorAddon": "001751:Backpacks of the Commonwealth.esp"
+    },
+    {
+      "AddonIndex": 1,
+      "ArmorAddon": "001746:Backpacks of the Commonwealth.esp"
+    },
+    {
+      "AddonIndex": 11,
+      "ArmorAddon": "01736F:Backpacks of the Commonwealth.esp"
+    },
+    {
+      "AddonIndex": 12,
+      "ArmorAddon": "017370:Backpacks of the Commonwealth.esp"
+    },
+    {
+      "AddonIndex": 13,
+      "ArmorAddon": "017371:Backpacks of the Commonwealth.esp"
+    },
+    {
+      "AddonIndex": 14,
+      "ArmorAddon": "017372:Backpacks of the Commonwealth.esp"
+    },
+    {
+      "AddonIndex": 15,
+      "ArmorAddon": "01736E:Backpacks of the Commonwealth.esp"
+    }
+  ],
+  "Value": 78,
+  "Weight": 5.0,
+  "Unused": "0x000000",
+  "AttachParentSlots": [
+    "007C26:Backpacks of the Commonwealth.esp",
+    "05367F:Backpacks of the Commonwealth.esp"
+  ],
+  "ObjectTemplates": [
+    {
+      "IsEditorOnly": true,
+      "Name": {
+        "TargetLanguage": "English",
+        "Value": "CC/DR (Legendary Desc)"
+      },
+      "Default": true,
+      "Includes": [
+        {
+          "Mod": "00173C:Backpacks of the Commonwealth.esp",
+          "DontUseAll": true
+        },
+        {
+          "Mod": "00CC49:Backpacks of the Commonwealth.esp",
+          "DontUseAll": true
+        }
+      ],
+      "Properties": [
+        {
+          "MutagenObjectType": "ObjectModIntProperty<Armor+Property>",
+          "Property": "AddonIndex",
+          "Value": 1,
+          "FunctionType": "Add"
+        }
+      ]
+    }
+  ]
+}

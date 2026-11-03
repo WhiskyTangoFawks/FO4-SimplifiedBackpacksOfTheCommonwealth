@@ -1,0 +1,67 @@
+{
+  "FormKey": "001F2C:Backpacks of the Commonwealth.esp",
+  "EditorID": "backpack_co_mod_BPStealthCC65Rads",
+  "Components": [
+    {
+      "Component": "01FA8C:Fallout4.esm",
+      "Count": 4
+    },
+    {
+      "Component": "01FA91:Fallout4.esm",
+      "Count": 3
+    },
+    {
+      "Component": "01FAA6:Fallout4.esm",
+      "Count": 8
+    },
+    {
+      "Component": "01FABB:Fallout4.esm",
+      "Count": 10
+    },
+    {
+      "Component": "01FABC:Fallout4.esm",
+      "Count": 4
+    },
+    {
+      "Component": "023742:Fallout4.esm",
+      "Count": 1
+    },
+    {
+      "Component": "03D294:Fallout4.esm",
+      "Count": 4
+    }
+  ],
+  "Description": {
+    "TargetLanguage": "English",
+    "Value": ""
+  },
+  "Conditions": [
+    {
+      "MutagenObjectType": "ConditionFloat",
+      "Unknown1": "0x565041",
+      "ComparisonValue": 1.0,
+      "Data": {
+        "MutagenObjectType": "FunctionConditionData",
+        "Function": "HasPerk",
+        "ParameterOneRecord": "04B256:Fallout4.esm",
+        "ParameterOneNumber": 307798
+      }
+    },
+    {
+      "MutagenObjectType": "ConditionFloat",
+      "Unknown1": "0x565041",
+      "ComparisonValue": 1.0,
+      "Data": {
+        "MutagenObjectType": "FunctionConditionData",
+        "Function": "HasPerk",
+        "ParameterOneRecord": "0264DA:Fallout4.esm",
+        "ParameterOneNumber": 156890
+      }
+    }
+  ],
+  "CreatedObjectCounts": [
+    {
+      "Count": 1
+    }
+  ]
+}

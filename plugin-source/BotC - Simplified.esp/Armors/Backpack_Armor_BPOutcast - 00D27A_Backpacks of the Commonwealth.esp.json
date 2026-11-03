@@ -1,0 +1,69 @@
+{
+  "FormKey": "00D27A:Backpacks of the Commonwealth.esp",
+  "EditorID": "Backpack_Armor_BPOutcast",
+  "ObjectBounds": {
+    "First": "-13, -14, -1",
+    "Second": "14, 21, 15"
+  },
+  "PreviewTransform": "00DA3C:Backpacks of the Commonwealth.esp",
+  "Name": {
+    "TargetLanguage": "English",
+    "Value": "Outcast's Travel Pouch"
+  },
+  "WorldModel": {
+    "Male": {
+      "Model": {
+        "File": "Clothes\\Backpacks\\Outcast\\OutcastGO.nif",
+        "Data": "0x0400000000000000000000000000000000000000"
+      }
+    }
+  },
+  "BipedBodyTemplate": {
+    "FirstPersonFlags": [
+      "Unnamed54"
+    ]
+  },
+  "Race": "013746:Fallout4.esm",
+  "Keywords": [
+    "07820B:Fallout4.esm",
+    "00D27D:Backpacks of the Commonwealth.esp"
+  ],
+  "Description": {
+    "TargetLanguage": "English",
+    "Value": ""
+  },
+  "InstanceNaming": "184BC1:Fallout4.esm",
+  "Armatures": [
+    {
+      "AddonIndex": 0,
+      "ArmorAddon": "00D27B:Backpacks of the Commonwealth.esp"
+    }
+  ],
+  "Value": 21,
+  "Weight": 3.0,
+  "Unused": "0x000000",
+  "AttachParentSlots": [
+    "007C26:Backpacks of the Commonwealth.esp",
+    "007C44:Backpacks of the Commonwealth.esp"
+  ],
+  "ObjectTemplates": [
+    {
+      "IsEditorOnly": true,
+      "Name": {
+        "TargetLanguage": "English",
+        "Value": "CC/DR (Legendary Desc)"
+      },
+      "Default": true,
+      "Includes": [
+        {
+          "Mod": "00D27F:Backpacks of the Commonwealth.esp",
+          "DontUseAll": true
+        },
+        {
+          "Mod": "030B8F:Backpacks of the Commonwealth.esp",
+          "DontUseAll": true
+        }
+      ]
+    }
+  ]
+}

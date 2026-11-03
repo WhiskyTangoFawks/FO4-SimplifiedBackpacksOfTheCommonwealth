@@ -1,0 +1,90 @@
+{
+  "FormKey": "023E6B:Backpacks of the Commonwealth.esp",
+  "EditorID": "backpack_Armor_zVaultSuit75",
+  "ObjectBounds": {
+    "First": "-21, -18, -5",
+    "Second": "21, 18, 5"
+  },
+  "PreviewTransform": "186DD7:Fallout4.esm",
+  "Name": {
+    "TargetLanguage": "English",
+    "Value": "Vault 75 Jumpsuit"
+  },
+  "WorldModel": {
+    "Male": {
+      "Model": {
+        "File": "Clothes\\Vault111Suit\\VaultSuitGO.nif",
+        "Data": "0x0400000000000000000000000000000000000000"
+      }
+    },
+    "Female": {
+      "Model": {
+        "File": "Clothes\\Vault111Suit\\VaultSuitGO.nif",
+        "Data": "0x0400000000000000000000000000000000000000"
+      }
+    }
+  },
+  "BipedBodyTemplate": {
+    "FirstPersonFlags": [
+      "Body",
+      "TorsoUnderArmor",
+      "LeftArmUnderArmor",
+      "RightArmUnderArmor",
+      "LeftLegUnderArmor",
+      "RightLegUnderArmor",
+      "TorsoArmor",
+      "LeftArmArmor",
+      "RightArmArmor",
+      "LeftLegArmor",
+      "RightLegArmor"
+    ]
+  },
+  "Race": "013746:Fallout4.esm",
+  "Keywords": [
+    "04F42C:Fallout4.esm",
+    "07820B:Fallout4.esm",
+    "07FACA:Fallout4.esm",
+    "0C5625:Fallout4.esm",
+    "204C22:Fallout4.esm",
+    "22BC98:Fallout4.esm",
+    "23D317:Fallout4.esm"
+  ],
+  "Description": {
+    "TargetLanguage": "English",
+    "Value": ""
+  },
+  "InstanceNaming": "23C063:Fallout4.esm",
+  "Armatures": [
+    {
+      "AddonIndex": 0,
+      "ArmorAddon": "023E6C:Backpacks of the Commonwealth.esp"
+    }
+  ],
+  "Value": 32,
+  "Weight": 1.0,
+  "Unused": "0x000000",
+  "Resistances": [
+    {
+      "DamageType": "060A81:Fallout4.esm",
+      "Value": 10
+    },
+    {
+      "DamageType": "060A85:Fallout4.esm",
+      "Value": 15
+    }
+  ],
+  "AttachParentSlots": [
+    "20DE3E:Fallout4.esm"
+  ],
+  "ObjectTemplates": [
+    {
+      "Default": true,
+      "Includes": [
+        {
+          "Mod": "18E59C:Fallout4.esm",
+          "DontUseAll": true
+        }
+      ]
+    }
+  ]
+}

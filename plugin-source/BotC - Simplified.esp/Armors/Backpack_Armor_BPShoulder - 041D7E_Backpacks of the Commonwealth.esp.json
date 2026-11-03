@@ -1,0 +1,112 @@
+{
+  "FormKey": "041D7E:Backpacks of the Commonwealth.esp",
+  "EditorID": "Backpack_Armor_BPShoulder",
+  "VirtualMachineAdapter": {
+    "Scripts": [
+      {
+        "Name": "BP:SetPowerArmorAV",
+        "Properties": [
+          {
+            "MutagenObjectType": "ScriptObjectProperty",
+            "Name": "avHARDCODEDWeight",
+            "Object": "00D3FA:Backpacks of the Commonwealth.esp"
+          },
+          {
+            "MutagenObjectType": "ScriptObjectProperty",
+            "Name": "avWeightBonus",
+            "Object": "00E33D:Backpacks of the Commonwealth.esp"
+          },
+          {
+            "MutagenObjectType": "ScriptObjectProperty",
+            "Name": "avTotalCarryWeight",
+            "Object": "00DB9C:Backpacks of the Commonwealth.esp"
+          }
+        ]
+      },
+      {
+        "Name": "BP:StartWaterTimer",
+        "Properties": [
+          {
+            "MutagenObjectType": "ScriptObjectProperty",
+            "Name": "avWater",
+            "Object": "002EE3:Backpacks of the Commonwealth.esp"
+          },
+          {
+            "MutagenObjectType": "ScriptObjectProperty",
+            "Name": "avFirstAid",
+            "Object": "007C34:Backpacks of the Commonwealth.esp"
+          },
+          {
+            "MutagenObjectType": "ScriptObjectProperty",
+            "Name": "perkWater",
+            "Object": "002EE0:Backpacks of the Commonwealth.esp"
+          }
+        ]
+      }
+    ]
+  },
+  "ObjectBounds": {
+    "First": "-10, -17, 0",
+    "Second": "9, 4, 7"
+  },
+  "PreviewTransform": "052F4F:Backpacks of the Commonwealth.esp",
+  "Name": {
+    "TargetLanguage": "English",
+    "Value": "Small Shoulder Bag"
+  },
+  "ObjectEffect": "05367C:Backpacks of the Commonwealth.esp",
+  "WorldModel": {
+    "Male": {
+      "Model": {
+        "File": "Clothes\\Backpacks\\Shoulder\\ShoulderGO.nif",
+        "Data": "0x0400000000000000000000000000000000000000"
+      }
+    }
+  },
+  "BipedBodyTemplate": {
+    "FirstPersonFlags": [
+      "Unnamed54"
+    ]
+  },
+  "Race": "013746:Fallout4.esm",
+  "Keywords": [
+    "07820B:Fallout4.esm",
+    "0F4AE9:Fallout4.esm",
+    "1B3FAC:Fallout4.esm",
+    "041D83:Backpacks of the Commonwealth.esp"
+  ],
+  "Description": {
+    "TargetLanguage": "English",
+    "Value": ""
+  },
+  "InstanceNaming": "184BC1:Fallout4.esm",
+  "Armatures": [
+    {
+      "AddonIndex": 0,
+      "ArmorAddon": "041D80:Backpacks of the Commonwealth.esp"
+    }
+  ],
+  "Value": 8,
+  "Weight": 1.0,
+  "Unused": "0x000000",
+  "AttachParentSlots": [
+    "1E32C8:Fallout4.esm",
+    "007C26:Backpacks of the Commonwealth.esp"
+  ],
+  "ObjectTemplates": [
+    {
+      "IsEditorOnly": true,
+      "Name": {
+        "TargetLanguage": "English",
+        "Value": "CC/DR (Legendary Desc)"
+      },
+      "Default": true,
+      "Includes": [
+        {
+          "Mod": "041D7F:Backpacks of the Commonwealth.esp",
+          "DontUseAll": true
+        }
+      ]
+    }
+  ]
+}

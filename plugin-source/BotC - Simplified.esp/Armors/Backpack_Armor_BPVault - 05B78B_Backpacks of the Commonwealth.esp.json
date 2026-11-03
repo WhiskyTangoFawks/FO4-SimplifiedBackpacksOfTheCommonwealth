@@ -1,0 +1,86 @@
+{
+  "FormKey": "05B78B:Backpacks of the Commonwealth.esp",
+  "EditorID": "Backpack_Armor_BPVault",
+  "ObjectBounds": {
+    "First": "-14, -16, 0",
+    "Second": "12, 22, 14"
+  },
+  "PreviewTransform": "00DA3C:Backpacks of the Commonwealth.esp",
+  "Name": {
+    "TargetLanguage": "English",
+    "Value": "Vault-Tec Utility Backpack"
+  },
+  "WorldModel": {
+    "Male": {
+      "Model": {
+        "File": "Clothes\\Backpacks\\VaultTec\\VaultTecGO.nif",
+        "Data": "0x0400000000000000000000000000000000000000"
+      }
+    }
+  },
+  "BipedBodyTemplate": {
+    "FirstPersonFlags": [
+      "Unnamed54"
+    ]
+  },
+  "Race": "013746:Fallout4.esm",
+  "Keywords": [
+    "07820B:Fallout4.esm",
+    "05B78D:Backpacks of the Commonwealth.esp"
+  ],
+  "Description": {
+    "TargetLanguage": "English",
+    "Value": ""
+  },
+  "InstanceNaming": "184BC1:Fallout4.esm",
+  "Armatures": [
+    {
+      "AddonIndex": 0,
+      "ArmorAddon": "05B78A:Backpacks of the Commonwealth.esp"
+    },
+    {
+      "AddonIndex": 4,
+      "ArmorAddon": "005789:Backpacks of the Commonwealth.esp"
+    },
+    {
+      "AddonIndex": 1,
+      "ArmorAddon": "00578A:Backpacks of the Commonwealth.esp"
+    },
+    {
+      "AddonIndex": 2,
+      "ArmorAddon": "00578B:Backpacks of the Commonwealth.esp"
+    },
+    {
+      "AddonIndex": 3,
+      "ArmorAddon": "00578D:Backpacks of the Commonwealth.esp"
+    }
+  ],
+  "Value": 220,
+  "Weight": 10.0,
+  "Unused": "0x000000",
+  "AttachParentSlots": [
+    "007C26:Backpacks of the Commonwealth.esp"
+  ],
+  "ObjectTemplates": [
+    {
+      "IsEditorOnly": true,
+      "Name": {
+        "TargetLanguage": "English",
+        "Value": "CC/DR (Legendary Desc)"
+      },
+      "Default": true,
+      "Includes": [
+        {
+          "Mod": "05B78F:Backpacks of the Commonwealth.esp",
+          "DontUseAll": true
+        }
+      ],
+      "Properties": [
+        {
+          "MutagenObjectType": "ObjectModIntProperty<Armor+Property>",
+          "Property": "AddonIndex"
+        }
+      ]
+    }
+  ]
+}

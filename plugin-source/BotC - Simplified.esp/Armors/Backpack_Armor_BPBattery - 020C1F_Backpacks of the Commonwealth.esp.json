@@ -1,0 +1,68 @@
+{
+  "FormKey": "020C1F:Backpacks of the Commonwealth.esp",
+  "EditorID": "Backpack_Armor_BPBattery",
+  "ObjectBounds": {
+    "First": "-11, -14, 0",
+    "Second": "11, 18, 16"
+  },
+  "PreviewTransform": "04FC63:Backpacks of the Commonwealth.esp",
+  "Name": {
+    "TargetLanguage": "English",
+    "Value": "G.A.R.I. Battery Powered P.C.D. Mk II"
+  },
+  "WorldModel": {
+    "Male": {
+      "Model": {
+        "File": "Clothes\\Backpacks\\Battery\\BatteryGO.nif",
+        "Data": "0x0400000000000000000000000000000000000000"
+      }
+    }
+  },
+  "BipedBodyTemplate": {
+    "FirstPersonFlags": [
+      "Unnamed54"
+    ]
+  },
+  "Race": "013746:Fallout4.esm",
+  "Keywords": [
+    "07820B:Fallout4.esm",
+    "0540CA:Backpacks of the Commonwealth.esp"
+  ],
+  "Description": {
+    "TargetLanguage": "English",
+    "Value": ""
+  },
+  "InstanceNaming": "184BC1:Fallout4.esm",
+  "Armatures": [
+    {
+      "AddonIndex": 0,
+      "ArmorAddon": "020C20:Backpacks of the Commonwealth.esp"
+    },
+    {
+      "AddonIndex": 1,
+      "ArmorAddon": "01B544:Backpacks of the Commonwealth.esp"
+    }
+  ],
+  "Value": 220,
+  "Weight": 10.0,
+  "Unused": "0x000000",
+  "AttachParentSlots": [
+    "007C26:Backpacks of the Commonwealth.esp"
+  ],
+  "ObjectTemplates": [
+    {
+      "IsEditorOnly": true,
+      "Name": {
+        "TargetLanguage": "English",
+        "Value": "CC/DR (Legendary Desc)"
+      },
+      "Default": true,
+      "Includes": [
+        {
+          "Mod": "0540CF:Backpacks of the Commonwealth.esp",
+          "DontUseAll": true
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "FormKey": "03A68A:Backpacks of the Commonwealth.esp",
+  "EditorID": "backpack_questWilderness",
+  "Data": {
+    "Flags": [
+      "StartsEnabled",
+      "RunOnce"
+    ],
+    "Unused": 166
+  },
+  "UnusedConditions": [],
+  "Stages": [
+    {
+      "Index": 10,
+      "Unknown": 116,
+      "LogEntries": [
+        {
+          "Flags": [],
+          "Note": "Wilderness Find Bonus"
+        }
+      ]
+    }
+  ],
+  "Aliases": []
+}

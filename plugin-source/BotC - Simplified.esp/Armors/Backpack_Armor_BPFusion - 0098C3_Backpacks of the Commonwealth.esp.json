@@ -1,0 +1,73 @@
+{
+  "FormKey": "0098C3:Backpacks of the Commonwealth.esp",
+  "EditorID": "Backpack_Armor_BPFusion",
+  "ObjectBounds": {
+    "First": "-10, -23, 0",
+    "Second": "11, 10, 9"
+  },
+  "PreviewTransform": "00E97F:Backpacks of the Commonwealth.esp",
+  "Name": {
+    "TargetLanguage": "English",
+    "Value": "P.E.G.A. Fusion Powered P.C.D. Mk III"
+  },
+  "WorldModel": {
+    "Male": {
+      "Model": {
+        "File": "Clothes\\Backpacks\\FusionT\\PEGAFinalGO.nif",
+        "Data": "0x0400000000000000000000000000000000000000"
+      }
+    }
+  },
+  "BipedBodyTemplate": {
+    "FirstPersonFlags": [
+      "Unnamed54"
+    ]
+  },
+  "Race": "013746:Fallout4.esm",
+  "Keywords": [
+    "07820B:Fallout4.esm",
+    "00A808:Backpacks of the Commonwealth.esp"
+  ],
+  "Description": {
+    "TargetLanguage": "English",
+    "Value": ""
+  },
+  "InstanceNaming": "184BC1:Fallout4.esm",
+  "Armatures": [
+    {
+      "AddonIndex": 1,
+      "ArmorAddon": "0098C4:Backpacks of the Commonwealth.esp"
+    },
+    {
+      "AddonIndex": 2,
+      "ArmorAddon": "041D7D:Backpacks of the Commonwealth.esp"
+    }
+  ],
+  "Value": 360,
+  "Weight": 10.0,
+  "Unused": "0x000000",
+  "AttachParentSlots": [
+    "007C26:Backpacks of the Commonwealth.esp",
+    "007C44:Backpacks of the Commonwealth.esp"
+  ],
+  "ObjectTemplates": [
+    {
+      "IsEditorOnly": true,
+      "Name": {
+        "TargetLanguage": "English",
+        "Value": "CC/DR (Legendary Desc)"
+      },
+      "Default": true,
+      "Includes": [
+        {
+          "Mod": "00A05F:Backpacks of the Commonwealth.esp",
+          "DontUseAll": true
+        },
+        {
+          "Mod": "030BB5:Backpacks of the Commonwealth.esp",
+          "DontUseAll": true
+        }
+      ]
+    }
+  ]
+}

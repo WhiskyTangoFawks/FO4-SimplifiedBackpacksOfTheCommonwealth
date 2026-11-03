@@ -1,0 +1,74 @@
+{
+  "FormKey": "00B74C:Backpacks of the Commonwealth.esp",
+  "IsCompressed": true,
+  "MajorRecordFlagsRaw": 262144,
+  "EditorID": "BackpackRoom",
+  "Fallout4MajorRecordFlags": [
+    "Compressed"
+  ],
+  "Name": {
+    "TargetLanguage": "English",
+    "Value": "Boston Backpacks HQ"
+  },
+  "Flags": [
+    "IsInteriorCell",
+    "PublicArea",
+    "ShowSky"
+  ],
+  "Lighting": {
+    "AmbientColor": "#00282417",
+    "DirectionalColor": "#00000000",
+    "FogNearColor": "#004A5B64",
+    "FogFar": 6500.0,
+    "FogPower": 1.0,
+    "AmbientColors": {
+      "DirectionalXPlus": "#000E1112",
+      "DirectionalXMinus": "#001C2324",
+      "DirectionalYPlus": "#000E1112",
+      "DirectionalYMinus": "#001C2324",
+      "DirectionalZPlus": "#000E1112",
+      "DirectionalZMinus": "#001C2324",
+      "Specular": "#00000000"
+    },
+    "FogFarColor": "#004E5761",
+    "FogMax": 0.3,
+    "Inherits": [
+      "DirectionalRotation",
+      "DirectionalFade",
+      "ClipDistance",
+      "LightFadeDistances"
+    ],
+    "NearHeightRange": 10000.0,
+    "ForColorHighNear": "#004A5B64",
+    "ForColorHighFar": "#004E5761",
+    "HighDensityScale": 1.0,
+    "FogNearScale": 1.0,
+    "FogFarScale": 1.0,
+    "FogHighNearScale": 1.0,
+    "FogHighFarScale": 1.0,
+    "FarHeightRange": 10000.0
+  },
+  "LightingTemplate": "02CB98:Fallout4.esm",
+  "WaterHeight": 0.0,
+  "SkyAndWeatherFromRegion": "1A65EF:Fallout4.esm",
+  "AcousticSpace": "238D03:Fallout4.esm",
+  "Music": "01BA72:Fallout4.esm",
+  "ImageSpace": "12B627:Fallout4.esm",
+  "Temporary": [
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00ABE2:Backpacks of the Commonwealth.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "001F3A:Backpacks of the Commonwealth.esp",
+      "Scale": 1.2,
+      "Position": "926.69147, 4865.339, 855.13654",
+      "Rotation": "0, 0, 3.3000004"
+    }
+  ],
+  "MajorFlags": [
+    "0x40000"
+  ]
+}

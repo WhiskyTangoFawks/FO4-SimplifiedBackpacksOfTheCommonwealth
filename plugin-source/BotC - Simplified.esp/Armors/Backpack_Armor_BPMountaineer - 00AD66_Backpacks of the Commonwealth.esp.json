@@ -1,0 +1,76 @@
+{
+  "FormKey": "00AD66:Backpacks of the Commonwealth.esp",
+  "EditorID": "Backpack_Armor_BPMountaineer",
+  "ObjectBounds": {
+    "First": "-14, -32, -1",
+    "Second": "12, 5, 15"
+  },
+  "PreviewTransform": "01F9EA:Backpacks of the Commonwealth.esp",
+  "Name": {
+    "TargetLanguage": "English",
+    "Value": "Mountaineer's Backpack"
+  },
+  "WorldModel": {
+    "Male": {
+      "Model": {
+        "File": "Clothes\\Backpacks\\Mountaineer\\MountaineerGO.nif",
+        "Data": "0x0400000000000000000000000000000000000000"
+      }
+    }
+  },
+  "BipedBodyTemplate": {
+    "FirstPersonFlags": [
+      "Unnamed54"
+    ]
+  },
+  "Race": "013746:Fallout4.esm",
+  "Keywords": [
+    "07820B:Fallout4.esm",
+    "00AD70:Backpacks of the Commonwealth.esp"
+  ],
+  "Description": {
+    "TargetLanguage": "English",
+    "Value": ""
+  },
+  "InstanceNaming": "184BC1:Fallout4.esm",
+  "Armatures": [
+    {
+      "AddonIndex": 0,
+      "ArmorAddon": "01737B:Backpacks of the Commonwealth.esp"
+    }
+  ],
+  "Value": 53,
+  "Weight": 4.5,
+  "Unused": "0x000000",
+  "AttachParentSlots": [
+    "007C26:Backpacks of the Commonwealth.esp",
+    "007C44:Backpacks of the Commonwealth.esp"
+  ],
+  "ObjectTemplates": [
+    {
+      "IsEditorOnly": true,
+      "Name": {
+        "TargetLanguage": "English",
+        "Value": "CC/DR (Legendary Desc)"
+      },
+      "Default": true,
+      "Includes": [
+        {
+          "Mod": "003E21:Backpacks of the Commonwealth.esp",
+          "DontUseAll": true
+        },
+        {
+          "Mod": "00AD72:Backpacks of the Commonwealth.esp",
+          "DontUseAll": true
+        }
+      ],
+      "Properties": [
+        {
+          "MutagenObjectType": "ObjectModIntProperty<Armor+Property>",
+          "Property": "AddonIndex",
+          "Value": 1
+        }
+      ]
+    }
+  ]
+}

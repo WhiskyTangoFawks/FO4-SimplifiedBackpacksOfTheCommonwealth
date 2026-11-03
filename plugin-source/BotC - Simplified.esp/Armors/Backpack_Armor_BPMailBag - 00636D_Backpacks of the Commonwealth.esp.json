@@ -1,0 +1,57 @@
+{
+  "FormKey": "00636D:Backpacks of the Commonwealth.esp",
+  "EditorID": "Backpack_Armor_BPMailBag",
+  "ObjectBounds": {
+    "First": "-3, -29, 0",
+    "Second": "0, 33, 3"
+  },
+  "PreviewTransform": "00461D:Backpacks of the Commonwealth.esp",
+  "Name": {
+    "TargetLanguage": "English",
+    "Value": "Postman's Mailbag"
+  },
+  "WorldModel": {
+    "Male": {
+      "Model": {
+        "File": "Clothes\\Backpacks\\FreshMailBag\\FreshMailBagGO.nif",
+        "Data": "0x0400000000000000000000000000000000000000"
+      }
+    }
+  },
+  "BipedBodyTemplate": {
+    "FirstPersonFlags": [
+      "Unnamed54"
+    ]
+  },
+  "Race": "013746:Fallout4.esm",
+  "Keywords": [
+    "07820B:Fallout4.esm",
+    "0026C0:Backpacks of the Commonwealth.esp"
+  ],
+  "Description": {
+    "TargetLanguage": "English",
+    "Value": ""
+  },
+  "Armatures": [
+    {
+      "AddonIndex": 0,
+      "ArmorAddon": "001F18:Backpacks of the Commonwealth.esp"
+    }
+  ],
+  "Value": 8,
+  "Weight": 0.5,
+  "Unused": "0x000000",
+  "AttachParentSlots": [
+    "007C26:Backpacks of the Commonwealth.esp"
+  ],
+  "ObjectTemplates": [
+    {
+      "Includes": [
+        {
+          "Mod": "0026C4:Backpacks of the Commonwealth.esp",
+          "DontUseAll": true
+        }
+      ]
+    }
+  ]
+}

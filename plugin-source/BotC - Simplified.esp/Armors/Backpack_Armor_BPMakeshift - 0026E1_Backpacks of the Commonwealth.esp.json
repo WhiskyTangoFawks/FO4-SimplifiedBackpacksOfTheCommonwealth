@@ -1,0 +1,72 @@
+{
+  "FormKey": "0026E1:Backpacks of the Commonwealth.esp",
+  "EditorID": "Backpack_Armor_BPMakeshift",
+  "ObjectBounds": {
+    "First": "-17, -26, 0",
+    "Second": "11, 14, 19"
+  },
+  "PreviewTransform": "009C63:Backpacks of the Commonwealth.esp",
+  "Name": {
+    "TargetLanguage": "English",
+    "Value": "Makeshift Backpack"
+  },
+  "WorldModel": {
+    "Male": {
+      "Model": {
+        "File": "Clothes\\Backpacks\\Makeshift\\MakeshiftFinalGO.nif",
+        "Data": "0x0400000000000000000000000000000000000000"
+      }
+    }
+  },
+  "BipedBodyTemplate": {
+    "FirstPersonFlags": [
+      "Unnamed54"
+    ]
+  },
+  "Race": "013746:Fallout4.esm",
+  "Keywords": [
+    "07820B:Fallout4.esm",
+    "0026EC:Backpacks of the Commonwealth.esp"
+  ],
+  "Description": {
+    "TargetLanguage": "English",
+    "Value": ""
+  },
+  "InstanceNaming": "184BC1:Fallout4.esm",
+  "Armatures": [
+    {
+      "AddonIndex": 1,
+      "ArmorAddon": "0026E2:Backpacks of the Commonwealth.esp"
+    },
+    {
+      "AddonIndex": 2,
+      "ArmorAddon": "002EE5:Backpacks of the Commonwealth.esp"
+    },
+    {
+      "AddonIndex": 3,
+      "ArmorAddon": "09313C:Backpacks of the Commonwealth.esp"
+    }
+  ],
+  "Value": 23,
+  "Weight": 4.0,
+  "Unused": "0x000000",
+  "AttachParentSlots": [
+    "007C26:Backpacks of the Commonwealth.esp"
+  ],
+  "ObjectTemplates": [
+    {
+      "IsEditorOnly": true,
+      "Name": {
+        "TargetLanguage": "English",
+        "Value": "CC/DR (Legendary Desc)"
+      },
+      "Default": true,
+      "Includes": [
+        {
+          "Mod": "0026EA:Backpacks of the Commonwealth.esp",
+          "DontUseAll": true
+        }
+      ]
+    }
+  ]
+}

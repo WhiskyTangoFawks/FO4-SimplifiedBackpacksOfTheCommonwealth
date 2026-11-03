@@ -1,0 +1,36 @@
+{
+  "FormKey": "0026CD:Backpacks of the Commonwealth.esp",
+  "EditorID": "backpack_co_mod_BPMailBagDR10",
+  "Components": [
+    {
+      "Component": "01FAAE:Fallout4.esm",
+      "Count": 4
+    },
+    {
+      "Component": "01FAA5:Fallout4.esm",
+      "Count": 2
+    }
+  ],
+  "Description": {
+    "TargetLanguage": "English",
+    "Value": ""
+  },
+  "Conditions": [
+    {
+      "MutagenObjectType": "ConditionFloat",
+      "Unknown1": "0x565041",
+      "ComparisonValue": 1.0,
+      "Data": {
+        "MutagenObjectType": "FunctionConditionData",
+        "Function": "HasPerk",
+        "ParameterOneRecord": "04B254:Fallout4.esm",
+        "ParameterOneNumber": 307796
+      }
+    }
+  ],
+  "CreatedObjectCounts": [
+    {
+      "Count": 1
+    }
+  ]
+}

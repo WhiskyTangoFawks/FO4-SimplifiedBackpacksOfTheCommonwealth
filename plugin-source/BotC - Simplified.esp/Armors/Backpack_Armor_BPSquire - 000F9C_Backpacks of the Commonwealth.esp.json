@@ -1,0 +1,86 @@
+{
+  "FormKey": "000F9C:Backpacks of the Commonwealth.esp",
+  "EditorID": "Backpack_Armor_BPSquire",
+  "ObjectBounds": {
+    "First": "-43, -47, -28",
+    "Second": "43, 91, 9"
+  },
+  "PreviewTransform": "00461C:Backpacks of the Commonwealth.esp",
+  "Name": {
+    "TargetLanguage": "English",
+    "Value": "Squire's Backpack"
+  },
+  "WorldModel": {
+    "Male": {
+      "Model": {
+        "File": "Clothes\\Backpacks\\Squire\\SquireBackpackGO.nif",
+        "Data": "0x0400000000000000000000000000000000000000"
+      }
+    }
+  },
+  "BipedBodyTemplate": {
+    "FirstPersonFlags": [
+      "Unnamed54"
+    ]
+  },
+  "Race": "013746:Fallout4.esm",
+  "Keywords": [
+    "07820B:Fallout4.esm",
+    "002E0E:Backpacks of the Commonwealth.esp"
+  ],
+  "Description": {
+    "TargetLanguage": "English",
+    "Value": ""
+  },
+  "InstanceNaming": "184BC1:Fallout4.esm",
+  "Armatures": [
+    {
+      "AddonIndex": 1,
+      "ArmorAddon": "000F9D:Backpacks of the Commonwealth.esp"
+    },
+    {
+      "AddonIndex": 2,
+      "ArmorAddon": "01737E:Backpacks of the Commonwealth.esp"
+    }
+  ],
+  "Value": 53,
+  "Weight": 5.0,
+  "Unused": "0x000000",
+  "AttachParentSlots": [
+    "007C26:Backpacks of the Commonwealth.esp",
+    "007C44:Backpacks of the Commonwealth.esp",
+    "05367F:Backpacks of the Commonwealth.esp"
+  ],
+  "ObjectTemplates": [
+    {
+      "IsEditorOnly": true,
+      "Name": {
+        "TargetLanguage": "English",
+        "Value": "CC/DR (Legendary Desc)"
+      },
+      "Default": true,
+      "Includes": [
+        {
+          "Mod": "004C87:Backpacks of the Commonwealth.esp",
+          "DontUseAll": true
+        },
+        {
+          "Mod": "030B91:Backpacks of the Commonwealth.esp",
+          "DontUseAll": true
+        },
+        {
+          "Mod": "01737D:Backpacks of the Commonwealth.esp",
+          "DontUseAll": true
+        }
+      ],
+      "Properties": [
+        {
+          "MutagenObjectType": "ObjectModIntProperty<Armor+Property>",
+          "Property": "AddonIndex",
+          "Value": 1,
+          "FunctionType": "Add"
+        }
+      ]
+    }
+  ]
+}

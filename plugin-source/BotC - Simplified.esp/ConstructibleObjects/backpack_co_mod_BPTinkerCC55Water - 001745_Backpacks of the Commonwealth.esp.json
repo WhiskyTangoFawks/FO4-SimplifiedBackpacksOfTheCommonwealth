@@ -1,0 +1,59 @@
+{
+  "FormKey": "001745:Backpacks of the Commonwealth.esp",
+  "EditorID": "backpack_co_mod_BPTinkerCC55Water",
+  "Components": [
+    {
+      "Component": "01FAAE:Fallout4.esm",
+      "Count": 4
+    },
+    {
+      "Component": "1223C7:Fallout4.esm",
+      "Count": 2
+    },
+    {
+      "Component": "01FAA5:Fallout4.esm",
+      "Count": 4
+    },
+    {
+      "Component": "01FAB7:Fallout4.esm",
+      "Count": 4
+    },
+    {
+      "Component": "0366C0:Fallout4.esm",
+      "Count": 2
+    }
+  ],
+  "Description": {
+    "TargetLanguage": "English",
+    "Value": ""
+  },
+  "Conditions": [
+    {
+      "MutagenObjectType": "ConditionFloat",
+      "Unknown1": "0x565041",
+      "ComparisonValue": 1.0,
+      "Data": {
+        "MutagenObjectType": "FunctionConditionData",
+        "Function": "HasPerk",
+        "ParameterOneRecord": "04B255:Fallout4.esm",
+        "ParameterOneNumber": 307797
+      }
+    },
+    {
+      "MutagenObjectType": "ConditionFloat",
+      "Unknown1": "0x565041",
+      "ComparisonValue": 1.0,
+      "Data": {
+        "MutagenObjectType": "FunctionConditionData",
+        "Function": "HasPerk",
+        "ParameterOneRecord": "04A0B9:Fallout4.esm",
+        "ParameterOneNumber": 303289
+      }
+    }
+  ],
+  "CreatedObjectCounts": [
+    {
+      "Count": 1
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "FormKey": "0540CC:Backpacks of the Commonwealth.esp",
+  "EditorID": "backpack_co_mod_BPBatteryCC85Dmg",
+  "Components": [
+    {
+      "Component": "01FA91:Fallout4.esm",
+      "Count": 5
+    },
+    {
+      "Component": "01FAA0:Fallout4.esm",
+      "Count": 2
+    },
+    {
+      "Component": "01FAA6:Fallout4.esm",
+      "Count": 5
+    },
+    {
+      "Component": "01FAB3:Fallout4.esm",
+      "Count": 10
+    },
+    {
+      "Component": "01FAB4:Fallout4.esm",
+      "Count": 2
+    },
+    {
+      "Component": "03D294:Fallout4.esm",
+      "Count": 4
+    },
+    {
+      "Component": "075FE4:Fallout4.esm",
+      "Count": 8
+    },
+    {
+      "Component": "1AB88D:Fallout4.esm",
+      "Count": 2
+    }
+  ],
+  "Description": {
+    "TargetLanguage": "English",
+    "Value": ""
+  },
+  "Conditions": [
+    {
+      "MutagenObjectType": "ConditionFloat",
+      "Unknown1": "0x565041",
+      "ComparisonValue": 1.0,
+      "Data": {
+        "MutagenObjectType": "FunctionConditionData",
+        "Function": "HasPerk",
+        "ParameterOneRecord": "04A0B7:Fallout4.esm",
+        "ParameterOneNumber": 303287
+      }
+    },
+    {
+      "MutagenObjectType": "ConditionFloat",
+      "Unknown1": "0x565041",
+      "ComparisonValue": 1.0,
+      "Data": {
+        "MutagenObjectType": "FunctionConditionData",
+        "Function": "HasPerk",
+        "ParameterOneRecord": "0264DB:Fallout4.esm",
+        "ParameterOneNumber": 156891
+      }
+    }
+  ],
+  "CreatedObjectCounts": [
+    {
+      "Count": 1
+    }
+  ]
+}

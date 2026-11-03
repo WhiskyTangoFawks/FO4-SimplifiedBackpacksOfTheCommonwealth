@@ -1,0 +1,34 @@
+{
+  "MutagenObjectType": "ObjectModification",
+  "FormKey": "030B8D:Backpacks of the Commonwealth.esp",
+  "MajorRecordFlagsRaw": 128,
+  "EditorID": "modcol_BPMountaineer_Colors",
+  "Fallout4MajorRecordFlags": [
+    "0x80"
+  ],
+  "Description": {
+    "TargetLanguage": "English",
+    "Value": ""
+  },
+  "AttachPoint": "007C44:Backpacks of the Commonwealth.esp",
+  "Includes": [
+    {
+      "Mod": "003E20:Backpacks of the Commonwealth.esp",
+      "MinimumLevel": 1,
+      "DoNotUseAll": true
+    },
+    {
+      "Mod": "003E21:Backpacks of the Commonwealth.esp",
+      "MinimumLevel": 1,
+      "DoNotUseAll": true
+    },
+    {
+      "Mod": "003E1C:Backpacks of the Commonwealth.esp",
+      "MinimumLevel": 1,
+      "DoNotUseAll": true
+    }
+  ],
+  "MajorFlags": [
+    "0x80"
+  ]
+}

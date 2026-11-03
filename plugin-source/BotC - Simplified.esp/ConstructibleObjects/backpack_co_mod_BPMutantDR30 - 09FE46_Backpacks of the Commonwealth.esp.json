@@ -1,0 +1,19 @@
+{
+  "FormKey": "09FE46:Backpacks of the Commonwealth.esp",
+  "EditorID": "backpack_co_mod_BPMutantDR30",
+  "Components": [
+    {
+      "Component": "01FAA5:Fallout4.esm",
+      "Count": 1
+    }
+  ],
+  "Description": {
+    "TargetLanguage": "English",
+    "Value": ""
+  },
+  "CreatedObjectCounts": [
+    {
+      "Count": 1
+    }
+  ]
+}

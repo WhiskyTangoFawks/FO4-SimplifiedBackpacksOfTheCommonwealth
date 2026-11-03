@@ -1,0 +1,55 @@
+{
+  "FormKey": "012C4A:Backpacks of the Commonwealth.esp",
+  "EditorID": "backpack_co_mod_BPMercenaryCC85Reload",
+  "Components": [
+    {
+      "Component": "01FAAE:Fallout4.esm",
+      "Count": 10
+    },
+    {
+      "Component": "1223C7:Fallout4.esm",
+      "Count": 2
+    },
+    {
+      "Component": "01FAA5:Fallout4.esm",
+      "Count": 8
+    },
+    {
+      "Component": "03D294:Fallout4.esm",
+      "Count": 7
+    }
+  ],
+  "Description": {
+    "TargetLanguage": "English",
+    "Value": ""
+  },
+  "Conditions": [
+    {
+      "MutagenObjectType": "ConditionFloat",
+      "Unknown1": "0x565041",
+      "ComparisonValue": 1.0,
+      "Data": {
+        "MutagenObjectType": "FunctionConditionData",
+        "Function": "HasPerk",
+        "ParameterOneRecord": "1797EA:Fallout4.esm",
+        "ParameterOneNumber": 1546218
+      }
+    },
+    {
+      "MutagenObjectType": "ConditionFloat",
+      "Unknown1": "0x565041",
+      "ComparisonValue": 1.0,
+      "Data": {
+        "MutagenObjectType": "FunctionConditionData",
+        "Function": "HasPerk",
+        "ParameterOneRecord": "065E5C:Fallout4.esm",
+        "ParameterOneNumber": 417372
+      }
+    }
+  ],
+  "CreatedObjectCounts": [
+    {
+      "Count": 1
+    }
+  ]
+}

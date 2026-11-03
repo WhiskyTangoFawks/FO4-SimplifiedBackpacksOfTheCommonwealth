@@ -1,0 +1,19 @@
+{
+  "ModKey": "BotC - Simplified.esp",
+  "GameRelease": "Fallout4",
+  "ModHeader": {
+    "Flags": [
+      "Small"
+    ],
+    "Stats": {
+      "NextFormID": 1
+    },
+    "Author": "",
+    "OverriddenForms": [
+      "009C6A:Backpacks of the Commonwealth.esp",
+      "009C6B:Backpacks of the Commonwealth.esp",
+      "009C6D:Backpacks of the Commonwealth.esp",
+      "00ABE2:Backpacks of the Commonwealth.esp"
+    ]
+  }
+}
