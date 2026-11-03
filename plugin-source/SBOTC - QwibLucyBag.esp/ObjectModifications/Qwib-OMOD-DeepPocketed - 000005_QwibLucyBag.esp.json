@@ -1,0 +1,52 @@
+{
+  "MutagenObjectType": "ArmorModification",
+  "FormKey": "000005:QwibLucyBag.esp",
+  "EditorID": "Qwib-OMOD-DeepPocketed",
+  "Name": {
+    "TargetLanguage": "English",
+    "Value": "Deep Pocketed"
+  },
+  "Description": {
+    "TargetLanguage": "English",
+    "Value": "Greatly Improves carrying capacity."
+  },
+  "AttachPoint": "000001:QwibLucyBag.esp",
+  "TargetOmodKeywords": [
+    "000002:QwibLucyBag.esp"
+  ],
+  "Properties": [
+    {
+      "MutagenObjectType": "ObjectModFloatProperty<Armor+Property>",
+      "Property": "Weight",
+      "Value": 0.1,
+      "FunctionType": "MultAndAdd"
+    },
+    {
+      "MutagenObjectType": "ObjectModFloatProperty<Armor+Property>",
+      "Property": "Value",
+      "Value": 0.1,
+      "FunctionType": "MultAndAdd"
+    },
+    {
+      "MutagenObjectType": "ObjectModFormLinkFloatProperty<Armor+Property>",
+      "Property": "ActorValues",
+      "Record": "00E33D:Backpacks of the Commonwealth.esp",
+      "Value": 5.0,
+      "FunctionType": "Add"
+    },
+    {
+      "MutagenObjectType": "ObjectModFormLinkFloatProperty<Armor+Property>",
+      "Property": "ActorValues",
+      "Record": "0002DC:Fallout4.esm",
+      "Value": 35.0,
+      "FunctionType": "Add"
+    },
+    {
+      "MutagenObjectType": "ObjectModFormLinkFloatProperty<Armor+Property>",
+      "Property": "ActorValues",
+      "Record": "00D3FA:Backpacks of the Commonwealth.esp",
+      "Value": 35.0,
+      "FunctionType": "Add"
+    }
+  ]
+}

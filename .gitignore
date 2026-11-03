@@ -1,0 +1,7 @@
+*
+!/.gitignore
+!/.gitattributes
+!/build.json
+!/plugin-source/
+!/plugin-source/**
+!/SBoTC\ -\ Lucy's\ VaultTec\ Backpack.manifest.json

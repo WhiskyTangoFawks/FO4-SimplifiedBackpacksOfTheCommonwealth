@@ -1,0 +1,65 @@
+{
+  "FormKey": "000F9A:QwibLucyBag.esp",
+  "EditorID": "QwibLucyBag",
+  "ObjectBounds": {
+    "First": "-14, -17, -4",
+    "Second": "14, 13, 10"
+  },
+  "PreviewTransform": "186DD7:Fallout4.esm",
+  "Name": {
+    "TargetLanguage": "English",
+    "Value": "Vault-Tec Backpack"
+  },
+  "WorldModel": {
+    "Male": {
+      "Model": {
+        "File": "Qwib\\LucyBag\\Go.nif",
+        "Data": "0x0400000000000000000000000000000000000000"
+      }
+    }
+  },
+  "BipedBodyTemplate": {
+    "FirstPersonFlags": [
+      "Unnamed54"
+    ]
+  },
+  "Race": "000019:Fallout4.esm",
+  "Keywords": [
+    "000002:QwibLucyBag.esp",
+    "00000B:QwibLucyBag.esp",
+    "000001:QwibLucyBag.esp",
+    "00000A:QwibLucyBag.esp"
+  ],
+  "Description": {
+    "TargetLanguage": "English",
+    "Value": ""
+  },
+  "Armatures": [
+    {
+      "AddonIndex": 0,
+      "ArmorAddon": "000F99:QwibLucyBag.esp"
+    }
+  ],
+  "Value": 15,
+  "Weight": 5.0,
+  "Unused": "0x000000",
+  "AttachParentSlots": [
+    "000001:QwibLucyBag.esp",
+    "00000A:QwibLucyBag.esp"
+  ],
+  "ObjectTemplates": [
+    {
+      "IsEditorOnly": true,
+      "Name": {
+        "TargetLanguage": "English",
+        "Value": "Default"
+      },
+      "Default": true,
+      "Includes": [
+        {
+          "Mod": "000003:QwibLucyBag.esp"
+        }
+      ]
+    }
+  ]
+}
